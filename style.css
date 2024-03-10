@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background-image:url(assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0,0.5);
+   
+
+}
+img{
+    opacity: 0.5;
+  }
+.navbar{
+    height: 20%;
+    /* width: 100%; */
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.list{
+    display: flex;
+    justify-content: space-around; 
+    width: 500px; 
+    margin-top: 60px;
+    font-size: 20px;
+    color: #e0be13;
+    font-weight: 400;
+   list-style-type: none;
+}
+.button-small{
+   border: none;
+   margin-top: 60px;
+   margin-right: 100px;
+   padding: 15px 40px;
+   font-size: 20px;
+   font-weight: bold;
+  background-color: #dc3309;
+  color: #fff;
+  
+}
+ /* Hero Section  */
+ .hero-heading{
+
+    color:#EEC213;
+    height: 40vh;
+    width: 62vw;
+     margin-left: 25%;
+    font-size: 120px;
+    padding: 20px;
+ }
+.button-large{
+    border: none;
+    margin-left: 45%;
+    margin-top: 150px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+   background-color: #dc3309;
+   color: #fff;
+}
+ .bottom{
+    float: right;
+    margin-top: 50px;
+
+ }
